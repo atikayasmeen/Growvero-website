@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | GROWVERO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <div class="logo">GROW<span>VERO</span></div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="store.html">Store</a>
+                <a href="blog.html">Blog</a>
+                <a href="courses.html">Courses</a>
+                <a href="internship.html">Internship</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <button class="hamburger"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            
+            <div class="contact-wrap">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> GROWVERO</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Faisalabad, Pakistan</p>
+                        <p><i class="fas fa-envelope"></i> growvero@gmail.com</p>
+                        <p><i class="fas fa-phone-alt"></i> 03455456465</p>
+                    </div>
+                    
+                    <h3 style="margin-top: 30px;">Follow Us</h3>
+                    <div style="display: flex; gap: 15px; font-size: 2rem;">
+                        <a href="https://www.instagram.com/grow_vero/" target="_blank"><i class="fab fa-instagram" style="color: #e1306c;"></i></a>
+                        <a href="https://www.facebook.com/share/1SLt2HqP9K/" target="_blank"><i class="fab fa-facebook" style="color: #1877f2;"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-noman-ali-3a014a3a9?" target="_blank"><i class="fab fa-linkedin" style="color: #0077b5;"></i></a>
+                        <a href="https://wa.me/923455456465" target="_blank"><i class="fab fa-whatsapp" style="color: #25d366;"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <form id="contactForm">
+    <!-- Full Name: Text format -->
+    <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="e.g., Ali Ahmed" required>
+    </div>
+
+    <!-- Email: Email format (extension means @gmail.com etc) -->
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="e.g., ali@gmail.com" required>
+    </div>
+
+    <!-- Phone: Tel format (Numbers only, preferably +92 format) -->
+    <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g., 0345 5456465" required>
+    </div>
+
+    <!-- Service: Dropdown selection -->
+    <div class="form-group">
+        <label for="service">Service</label>
+        <select id="service" name="service" required>
+            <option value="">Select a Service</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Software Development">Software Development</option>
+            <option value="Mobile App">Mobile App</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+            <option value="SEO">SEO</option>
+            <option value="Social Media Marketing">Social Media Marketing</option>
+            <option value="Google Ads">Google Ads</option>
+            <option value="Graphic Design">Graphic Design</option>
+        </select>
+    </div>
+
+    <!-- Message: Text area format -->
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Briefly describe your project..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+    <div id="successMessage" style="display:none; margin-top: 20px; color: #00e676; font-weight: bold;"></div>
+</form>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div><h3 style="color: white;">GROWVERO</h3><p style="font-size: 0.9rem; color: #d1d5db;">Building digital futures.</p></div>
+                <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+                <div><h4>Contact</h4><ul><li>Faisalabad, Pakistan</li><li>growvero@gmail.com</li><li>03455456465</li></ul></div>
+                <div><h4>Social Media</h4><div style="display: flex; gap: 10px; font-size: 1.5rem;"><a href="https://www.instagram.com/grow_vero/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/share/1SLt2HqP9K/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.linkedin.com/in/muhammad-noman-ali-3a014a3a9?" target="_blank"><i class="fab fa-linkedin"></i></a><a href="https://wa.me/923455456465" target="_blank"><i class="fab fa-whatsapp"></i></a></div></div>
+            </div>
+            <div class="copyright">&copy; 2026 GROWVERO. All Rights Reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/923455456465" class="whatsapp-float" target="_blank">
+        <span class="whatsapp-tooltip">Chat with us</span>
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
